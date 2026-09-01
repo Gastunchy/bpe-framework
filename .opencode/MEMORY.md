@@ -50,7 +50,7 @@
 ## 4. Aprendizajes v3.3 (01/09/2026)
 
 * **Gobernanza:** Sin bloque Aprobaciones, solo Ficha+Historial. `skill(bpe-auditor-checklist)`
-* **Plantilla Híbrida v3.1:** Sin Cómo Leer en SOP (sí en GAP/Business Case). Ficha bullet 6 campos `Código/Versión/Owner/Actualización DD/MM/AAAA/Estado/Autor`, RN `ID|Regla|Aplicación`, Paso `Actor/Sistema/Acción/Estado` (Estado opt As-Is, oblig To-Be), KPIs `KPI|Fórmula|Meta|Frecuencia` LaTeX. `skill(bpe-template-sop)`
+* **Plantilla Híbrida v3.1:** Sin Cómo Leer en SOP (sí en GAP/Business Case). Ficha tabla 6c `Campo|Valor` `Código/Versión/Owner/Actualización DD/MM/AAAA/Estado/Autor`, RN `ID|Regla|Aplicación`, Paso `Actor/Sistema/Acción/Estado` (Estado opt As-Is, oblig To-Be), KPIs `KPI|Fórmula|Meta|Frecuencia` LaTeX. `skill(bpe-template-sop)`
 * **En Pausa:** KPIs/instructivos `[SOLICITADO]/[SOLICITAR]` → `🟡 En Pausa` sin penalizar. `skill(bpe-auditor-checklist)`
 * **RACI 1xA:** Único A por fila, `—` si no aplica. `Auditoría SOP-RRHH-001: 7x A/R→🔴`
 * **Protocolo Validación 31/08/2026:** Resumen cambios → aprobación explícita → `file_write` → `MEMORY.md:55` → verificación auditor.

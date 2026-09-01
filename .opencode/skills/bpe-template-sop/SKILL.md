@@ -14,12 +14,14 @@ Unifica As-Is/To-Be sin Cómo Leer (decisión 31/08/2026). Ref: MEMORY.md:4
 > **[Tag1] · [Tag2] · [Tag3]**
 
 ## Ficha Técnica
-* **Código:** `SOP-[AREA]-[CODIGO]`
-* **Versión:** `v2.2 As-Is` / `v3.0 To-Be`
-* **Owner:** `[Área/Rol]`
-* **Actualización:** `DD/MM/AAAA`
-* **Estado:** `Vigente/En Revisión/Propuesto`
-* **Autor:** `Farias, Gastón David / Equipo BPE`
+| Campo | Valor |
+| :--- | :--- |
+| **Código** | `SOP-[AREA]-[CODIGO]` |
+| **Versión** | `v2.2 As-Is` / `v3.0 To-Be` |
+| **Owner** | `[Área/Rol]` |
+| **Actualización** | `DD/MM/AAAA` |
+| **Estado** | `Vigente/En Revisión/Propuesto` |
+| **Autor** | `Farias, Gastón David / Equipo BPE` |
 
 ## 1. Historial
 | Versión | Fecha | Cambio | Autor |
@@ -107,6 +109,6 @@ Link Miro/Visio swimlanes.
 * **C:** Interfaz `Campo|Pos|Tipo|Regla` — celda x celda oblig. Insumo discovery.
 
 ## Reglas de aplicación
-- Ficha 6c + Historial DD/MM/AAAA sin bloque Aprobaciones
+- Ficha tabla 6c (2 cols `Campo|Valor`) + Historial DD/MM/AAAA sin bloque Aprobaciones
 - Calendario 4c, RN tabla 3c, RACI 1xA
 - Entrega: `SOP-[CODIGO]-AsIs.md` en `01_process_survey_as-is/` o `SOP-[CODIGO]-ToBe-v3.0.md` en `03_process_future_state_to-be/` con workdir
