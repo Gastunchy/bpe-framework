@@ -2,9 +2,8 @@
 node_modules/
 .opencode/node_modules/
 bun.lock
-para revision/
-SOP-*/
-!SOP-*/README.md
+Procesos/
+!Procesos/README.md
 *.xlsx
 *.xlsm
 *.csv

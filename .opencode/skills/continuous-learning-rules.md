@@ -1,21 +1,10 @@
-# ⚙️ SKILL: Reglas de Aprendizaje Continuo y Re-Entrenamiento BPE
+# SKILL: Aprendizaje Continuo BPE
 
-Este skill define el protocolo algorítmico que debe seguir el **`continuous-learning-agent`** para procesar nuevo conocimiento y re-entrenar la célula de agentes.
+Protocolo para `continuous-learning-agent`:
 
----
+1. **Escaneo:** `Procesos/SOP-XXX - Nombre/01-03` entregables finales.
+2. **Detección:** Patrones novedosos no en `MEMORY.md`.
+3. **Update MEMORY:** Diccionario `MEMORY.md:2` + lecciones `MEMORY.md:4`.
+4. **Reentrenar:** agents/skills afectados.
 
-## 1. Protocolo de Extracción de Patrones
-
-Cada vez que un proceso sea completado o validado por el analista de proceso, el Subagente de Aprendizaje Continuo ejecutará el siguiente análisis de 4 pasos:
-
-```text
- ┌────────────────────────┐      ┌────────────────────────┐      ┌────────────────────────┐
- │ 1. Escaneo de Archivos │ ───► │ 2. Detección de Novedad│ ───► │ 3. Actualización de    │
- │    en Subcarpetas      │      │    (Nuevos Patrones)   │      │    MEMORY.md           │
- └────────────────────────┘      └────────────────────────┘      └───────────┬────────────┘
-                                                                             │
-                                                                             ▼
-                                                                 ┌────────────────────────┐
-                                                                 │ 4. Re-entrenamiento de │
-                                                                 │    Subagentes & Skills │
-                                                                 └────────────────────────┘
+Generar resumen qué/por qué/archivos+diff → esperar `sí` → `file_write` → verificar con `auditor-agent`.
