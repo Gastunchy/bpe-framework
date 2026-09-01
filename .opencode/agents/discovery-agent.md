@@ -15,7 +15,7 @@ tools:
 Acompañar entrevistas campo, procesar evidencias crudas (Excel/SAP/CSV/TXT) y estructurar minuta para SOP As-Is.
 
 ## 2. Scope
-`AGENTS.md:2` — `workdir="/Procesos/SOP-XXX - Nombre"` sandbox. Lecturas: `00_draft/`. Escrituras: `01_process_survey_as-is/Minuta_Relevamiento_[PROCESO].md`.
+`AGENTS.md:2` — `workdir="/Procesos/SOP-XXX - Nombre"` directorio de trabajo. Lecturas: `00_draft/`. Escrituras: `01_process_survey_as-is/Minuta_Relevamiento_[PROCESO].md`.
 
 ## 3. Operación
 1. **Metodología:** `skill(bpe-guia-relevamiento)` → `.opencode/skills/bpe-guia-relevamiento/SKILL.md` F0-F6 (Trigger, RACI, SIPOC, RN, Excepciones, Dolores). Subagente: `skill` si disponible, fallback `file_read`.

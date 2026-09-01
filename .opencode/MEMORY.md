@@ -31,7 +31,7 @@
 
 ## 3. Reglas Framework BPE
 
-1. **Sandbox:** Agentes operan solo en `Procesos/SOP-XXX - Nombre/`.
+1. **Directorio de trabajo:** Agentes operan solo en `Procesos/SOP-XXX - Nombre/`.
 2. **Estructura Obligatoria (Opción Procesos):**
    ```
    ./ Sistema BPE
@@ -43,7 +43,7 @@
              ├── 02_process_diagnosis/
              └── 03_process_future_state_to-be/
    ```
-   *Cada SOP es sandbox `Procesos/SOP-XXX - Nombre`. Usar `workdir="/Procesos/SOP-XXX - Nombre"`.*
+   *Cada SOP es directorio de trabajo `Procesos/SOP-XXX - Nombre`. Usar `workdir="/Procesos/SOP-XXX - Nombre"`.*
 
 ---
 
