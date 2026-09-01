@@ -5,7 +5,7 @@ description: Plantilla Híbrida SOP v3.1 As-Is/To-Be sin Cómo Leer. Usar para c
 
 # Skill: Plantilla Híbrida SOP v3.1 (As-Is/To-Be)
 
-Unifica As-Is/To-Be sin Cómo Leer (decisión 31/08/2026). Ref: MEMORY.md:4
+Unifica As-Is/To-Be sin Cómo Leer (decisión 31/08/2026). Framework v3.3 — Ficha tabla 6c Campo|Valor, RACI 1xA único (— si no aplica), RN ID|Regla|Aplicación, Paso Actor/Sistema/Acción/Estado (opt As-Is/oblig To-Be), KPIs LaTeX, En Pausa 🟡 sin penalizar.
 
 ---
 
@@ -57,7 +57,7 @@ Unifica As-Is/To-Be sin Cómo Leer (decisión 31/08/2026). Ref: MEMORY.md:4
 | 1.Carga | R | — | I |
 | 2.Aprobación | — | — | A |
 
-Regla: 1xA único por fila (`—` si no aplica). Ver MEMORY.md:4.
+Regla bloqueante: 1xA único por fila (`—` si no aplica). Duplicado A/R → 🔴. Sin Aprobaciones, solo Ficha tabla 6c + Historial DD/MM/AAAA.
 
 ## 6. Herramientas
 | Sistema | Función | Acceso |
