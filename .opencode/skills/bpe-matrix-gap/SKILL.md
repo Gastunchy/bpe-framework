@@ -1,4 +1,9 @@
-# SKILL: Matriz Brechas (Gap Analysis) v3.1
+---
+name: bpe-matrix-gap
+description: Matriz Brechas Gap Analysis v3.1 (8 cols + Lean 5 pilares + Roadmap P1/P2/P3). Usar cuando SOP As-Is está listo para diagnosticar brechas y priorizar mejoras.
+---
+
+# Skill: Matriz Brechas (Gap Analysis) v3.1
 
 ---
 
@@ -57,3 +62,8 @@
 | IN-02 | [Licencias] | [Nessie Portal] | M | Alto | P2 |
 | IN-03 | [Export BDO] | [CSV/TXT auto] | B | Alto | P2 |
 | IN-04 | [API BDO/SAP] | [máquina a máquina] | A | Medio | P3 |
+
+## Reglas aplicación
+- Ficha+Desc 2-3l + Cómo Leer 6 bullets + Resumen 4 bullets + Glosario + Matriz 8 cols + Lean 5 pilares + Roadmap P1/P2/P3. Sin Cómo Leer/Glosario → `🔴`.
+- Preguntar volumen/horas/frecuencia si falta dimensionamiento
+- Entrega: `GAP-SOP-XXX-v1.0.md` en `02_process_diagnosis/` con workdir

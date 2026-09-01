@@ -12,7 +12,7 @@ Liderar célula 6 subagentes BPE desde relevamiento hasta To-Be, cumpliendo Fram
 ## 3. Subagentes
 | # | Agente | Función |
 | :-: | :--- | :--- |
-| 1 | **discovery** | Relevamiento, `guia-relevamiento`, anexo celda x celda |
+| 1 | **discovery** | Relevamiento, `skill(bpe-guia-relevamiento)`, anexo celda x celda |
 | 2 | **sop** | SOP As-Is v3.1 (Ficha 6c, RN tabla, RACI 1xA, KPIs) |
 | 3 | **gap** | Matriz Brechas + Roadmap P1/P2/P3 |
 | 4 | **redesign** | Business Case + SOP To-Be v3.0 |

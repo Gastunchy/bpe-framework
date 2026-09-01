@@ -1,4 +1,9 @@
-# SKILL: Business Case To-Be
+---
+name: bpe-business-case
+description: Business Case To-Be con ROI 75-85% y KPIs To-Be. Usar después de Gap Analysis para justificar digitalización antes de SOP To-Be.
+---
+
+# Skill: Business Case To-Be
 
 ---
 
@@ -61,3 +66,7 @@ Resumen (pilares) + Diagnóstico 5D + Objetivos Fase A-E + Viabilidad/ROI + KPIs
 | :--- | :--- | :---: | :--- |
 | Process Owner | [Nombre] | Pendiente | DD/MM/AAAA |
 | BPE Engineer | Farias, Gastón David | Elaborado | DD/MM/AAAA |
+
+## Reglas aplicación
+- Header 5c + Ficha + Cómo Leer 6 bullets + Glosario + Resumen + Diagnóstico 5D + Objetivos Fase A-E + ROI 75-85% + KPIs 5 filas + Próximos Pasos 4 + Firma 4 roles. Sin Firma/Pasos → `🔴`.
+- Entrega: `Business-Case-SOP-XXX-v1.0.md` en `03_process_future_state_to-be/` con workdir

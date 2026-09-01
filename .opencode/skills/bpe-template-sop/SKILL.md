@@ -1,6 +1,11 @@
-# SKILL: Plantilla Híbrida SOP v3.1 (As-Is/To-Be)
+---
+name: bpe-template-sop
+description: Plantilla Híbrida SOP v3.1 As-Is/To-Be sin Cómo Leer. Usar para crear SOP-AsIs.md o SOP-ToBe.md desde minuta discovery y evidencias.
+---
 
-Unifica As-Is/To-Be sin Cómo Leer (decisión 31/08/2026). `Ref: MEMORY.md:4`
+# Skill: Plantilla Híbrida SOP v3.1 (As-Is/To-Be)
+
+Unifica As-Is/To-Be sin Cómo Leer (decisión 31/08/2026). Ref: MEMORY.md:4
 
 ---
 
@@ -18,7 +23,7 @@ Unifica As-Is/To-Be sin Cómo Leer (decisión 31/08/2026). `Ref: MEMORY.md:4`
 
 ## 1. Historial
 | Versión | Fecha | Cambio | Autor |
-| :---: | :---: | :--- | :--- |
+| :---: | :--- | :--- | :--- |
 | v1.0 | DD/MM/AAAA | Inicial E2E | Equipo BPE |
 | v2.2 | DD/MM/AAAA | As-Is + riesgos | Farias |
 | v3.0 | DD/MM/AAAA | To-Be digital | Equipo BPE |
@@ -50,6 +55,8 @@ Unifica As-Is/To-Be sin Cómo Leer (decisión 31/08/2026). `Ref: MEMORY.md:4`
 | 1.Carga | R | — | I |
 | 2.Aprobación | — | — | A |
 
+Regla: 1xA único por fila (`—` si no aplica). Ver MEMORY.md:4.
+
 ## 6. Herramientas
 | Sistema | Función | Acceso |
 | :--- | :--- | :--- |
@@ -79,6 +86,8 @@ Unifica As-Is/To-Be sin Cómo Leer (decisión 31/08/2026). `Ref: MEMORY.md:4`
 | Lead Time | `Pago-Apertura` | ≤2d háb | Mensual |
 | FTR | `OK/Total*100` | ≥98% | Mensual |
 
+Si `[SOLICITADO]/[SOLICITAR]` → `🟡 En Pausa` sin penalizar. Ver auditor-checklist.
+
 ## 11. SIPOC
 | Proveedor | Entradas | Salidas | Cliente |
 | :--- | :--- | :--- | :--- |
@@ -95,4 +104,9 @@ Link Miro/Visio swimlanes.
 ## 14. Anexos
 * **A:** Master Data `Campo|Tipo|Descripción|Ejemplo`
 * **B:** Parámetros `Concepto|Criterio|Tope`
-* **C:** Interfaz `Campo|Pos|Tipo|Regla` — celda x celda oblig.
+* **C:** Interfaz `Campo|Pos|Tipo|Regla` — celda x celda oblig. Insumo discovery.
+
+## Reglas de aplicación
+- Ficha 6c + Historial DD/MM/AAAA sin bloque Aprobaciones
+- Calendario 4c, RN tabla 3c, RACI 1xA
+- Entrega: `SOP-[CODIGO]-AsIs.md` en `01_process_survey_as-is/` o `SOP-[CODIGO]-ToBe-v3.0.md` en `03_process_future_state_to-be/` con workdir

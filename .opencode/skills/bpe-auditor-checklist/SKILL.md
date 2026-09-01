@@ -1,6 +1,11 @@
-# SKILL: Checklist Auditoría SOP BPE
+---
+name: bpe-auditor-checklist
+description: Checklist auditoría SOP 9 dimensiones (gobernanza, RACI 1xA, RN, riesgos ISO31000). Usar para auditar SOP As-Is/To-Be propio o de terceros y generar reporte con estados 🟢/🟡/🔴.
+---
 
-Criterios para auditar SOP y generar devolución.
+# Skill: Checklist Auditoría SOP BPE
+
+Criterios para auditar SOP y generar devolución. Ref: MEMORY.md:4
 
 ---
 
@@ -28,3 +33,13 @@ Criterios para auditar SOP y generar devolución.
 ## 3. Plan Acción
 1. **[Mejora 1]:** [acción concreta]
 2. **[Mejora 2]:** [acción estructura]
+
+## Reglas bloqueantes
+- RACI 1xA único (`—` si no aplica) — `A/R` duplicado → `🔴`
+- Sin Aprobaciones, Ficha 6c + Historial `DD/MM/AAAA`
+- En Pausa: `[SOLICITADO]/[SOLICITAR]` → `🟡`
+- RN `ID|Regla|Aplicación` obligatoria
+- Coherencia: Roles Paso∈RACI, Riesgos mitigan GAPs, Calendario 4c
+
+## Entrega
+`Reporte_Auditoria_[DOC].md` en carpeta auditada con `workdir="/Procesos/SOP-XXX - Nombre"`
