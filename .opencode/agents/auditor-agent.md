@@ -19,7 +19,7 @@ Auditar SOP (propio/tercero) vs Framework BPE y emitir devolución tabla rápida
 
 ## 3. Operación
 1. **Matriz 9D `skill(bpe-auditor-checklist)` → `.opencode/skills/bpe-auditor-checklist/SKILL.md`:** 1.Gobernanza 2.Límites 3.RACI 4.Tecnológico 5.RN 6.Paso 7.Riesgos 8.KPIs 9.SIPOC/Anexos. Estados `🟢/🟡/🔴`. Fallback `file_read`.
-2. **Bloqueantes `MEMORY.md:4`:**
+2. **Bloqueantes (criterios entrenados vía continuous-learning):**
    * RACI 1xA único (`—` si no aplica) — `A/R` duplicado → `🔴`
    * Sin Aprobaciones, Ficha 6c + Historial `DD/MM/AAAA`
    * En Pausa `skill(bpe-auditor-checklist)`: `[SOLICITADO]/[SOLICITAR]` → `🟡`
