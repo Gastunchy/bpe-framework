@@ -39,6 +39,7 @@ Puedes coordinar e invocar los siguientes subagentes según la fase:
 | 4   | `@redesign`            | Elaboración de Business Case + SOP To-Be v3.0.                                               |
 | 5   | `@auditor`             | Auditoría en 9 dimensiones con verificación de chequeo 1xA (bloqueante).                     |
 | 6   | `@continuous-learning` | Reentrenamiento del sistema y actualización de `MEMORY.md`.                                  |
+| 7   | `@github-sync`         | Backup de la estructura del framework (agents/skills/MEMORY) a GitHub vía MCP.               |
 
 ## 4. Matriz de Ruteo por Fase
 
@@ -48,6 +49,7 @@ Puedes coordinar e invocar los siguientes subagentes según la fase:
 * **Gap validado** → Delegar a `@redesign` → Produce Business Case + SOP To-Be
 * **Revisión de SOP externo/terceros** → Delegar a `@auditor`
 * **Ajustes de formato/términos recurrentes** → Delegar a `@continuous-learning` → Actualiza `MEMORY.md`
+* **Backup / sync estructura a GitHub** → Delegar a `@github-sync`
 
 ## 5. Gestión de Memoria y Aprendizaje Continua
 
