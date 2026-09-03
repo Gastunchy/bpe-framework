@@ -70,8 +70,11 @@ Regla bloqueante: 1xA único por fila (`—` si no aplica). Duplicado A/R → �
 | RN01 | [0.5h/medianoche] | [bloqueo origen] |
 | RN02 | [Excepciones] | [ON HOLD/criterio] |
 
+> **Formato RN válido:** tabla 3c `ID|Regla|Aplicación` **o** redacción narrativa `### RN0X: Título` + descripción. Ambos formatos son igualmente válidos.
+
 ## 8. Procedimiento
 > Actor/Sistema/Acción/Estado — Estado oblig To-Be, opt As-Is
+> Mientras la información esté presente (Actor, Sistema, Acción, Estado, RN), la estructura puede ser **narrativa, listado o ficha**. En encabezados de fase/paso, usar `:` o `—` de forma consistente dentro del documento o la fase.
 ### FASE A — [Nombre]
 #### 1. [Paso] — Actor:[Rol] Sistema:[Portal/SAP]
 * **Acción:** [botón/TX/validación]

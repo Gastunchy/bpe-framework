@@ -4,6 +4,7 @@ node_modules/
 bun.lock
 Procesos/
 !Procesos/README.md
+Order to cash (O2C)/
 *.xlsx
 *.xlsm
 *.csv

@@ -45,19 +45,13 @@
    ```
    *Cada SOP es directorio de trabajo `Procesos/SOP-XXX - Nombre`. Usar `workdir="/Procesos/SOP-XXX - Nombre"`.*
 
+3. **Aprobación entrenamiento:** Todo entrenamiento/aplicación de aprendizaje sobre agentes, subagentes y skills requiere **aprobación explícita del autor antes de aplicar lo entrenado**. No entrenar hasta su "OK".
+4. **Protocolo de validación de cambios:** Resumen de cambios → aprobación explícita → `file_write` → registro en MEMORY → verificación.
+
 ---
 
-## 4. Aprendizajes v3.3 (01/09/2026)
+## 4. Pendientes Activos (Seguimiento)
 
-* **Gobernanza:** Sin bloque Aprobaciones, solo Ficha+Historial. `skill(bpe-auditor-checklist)`
-* **Plantilla Híbrida v3.1:** Sin Cómo Leer en SOP (sí en GAP/Business Case). Ficha tabla 6c `Campo|Valor` `Código/Versión/Owner/Actualización DD/MM/AAAA/Estado/Autor`, RN `ID|Regla|Aplicación`, Paso `Actor/Sistema/Acción/Estado` (Estado opt As-Is, oblig To-Be), KPIs `KPI|Fórmula|Meta|Frecuencia` LaTeX. `skill(bpe-template-sop)`
-* **En Pausa:** KPIs/instructivos `[SOLICITADO]/[SOLICITAR]` → `🟡 En Pausa` sin penalizar. `skill(bpe-auditor-checklist)`
-* **RACI 1xA:** Único A por fila, `—` si no aplica. `Auditoría SOP-RRHH-001: 7x A/R→🔴`
-* **Protocolo Validación 31/08/2026:** Resumen cambios → aprobación explícita → `file_write` → `MEMORY.md:55` → verificación auditor.
-* **Alcance:** BPE transversal, ejemplos RRHH/Finanzas solo entrenamiento.
-
-### 4.1 Reentrenamiento 01/09/2026
-
-* **Origen:** Auditoría `SOP-RRHH-001 v2.2/Gap/Business Case/To-Be v3.0` — 8 gaps formato.
-* **Fix 11 archivos:** `discovery: celda x celda`, `sop: Ficha 6 campos/RACI 1xA`, `gap: Cómo Leer+Glosario`, `redesign: Business Case 5 campos+Firma 4 roles`, `auditor: 1xA bloqueante`, `template/matrixtobe` normalizados. Verificado `🟢`.
-* **Backup proceso-específico:** `/tmp/backup_BPE_20260901` (SAP Semantix, etc.) — no global.
+| ID | Proceso | Pendiente | Fecha solicitud | Nota |
+| :--- | :--- | :--- | :--- | :--- |
+| P01 | SOP-FINANZAS-003 O2C (§10) | Valores de KPIs (DSO, Lead Time, %Cut-off) | 02/09/2026 | Solicitud reenviada a stakeholder, esperando respuesta |
