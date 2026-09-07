@@ -1,9 +1,9 @@
 ---
 name: bpe-matrix-gap
-description: Matriz Brechas Gap Analysis v3.1 (8 cols + Lean 5 pilares + Roadmap P1/P2/P3). Usar cuando SOP As-Is está listo para diagnosticar brechas y priorizar mejoras.
+description: Matriz Brechas Gap Analysis v3.2 (8 secciones + Glosario 2 partes + Roadmap P1/P2/P3). Usar cuando SOP As-Is está listo para diagnosticar brechas y priorizar mejoras.
 ---
 
-# Skill: Matriz Brechas (Gap Analysis) v3.1
+# Skill: Matriz Brechas (Gap Analysis) v3.2
 
 ---
 
@@ -11,59 +11,104 @@ description: Matriz Brechas Gap Analysis v3.1 (8 cols + Lean 5 pilares + Roadmap
 
 > **Proceso:** `[CODIGO - Nombre]` **SOP Ref:** `[SOP-XXX v2.2]` **Versión:** `v1.0` **Fecha:** `[DD/MM/AAAA]` **Autor:** `Farias, Gastón David`
 
-## 1. Ficha
+## Estructura Obligatoria (8 secciones + Glosario)
+
+### 1. Ficha Técnica
 * **Proceso:** [Nombre largo]
 * **SOP Ref:** `SOP-XXX v2.2`
 * **Versión:** `v1.0`
 * **Fecha:** `DD/MM/AAAA`
-* **Autor:** `Equipo BPE`
+* **Elaborado por:** `Arquitecto de Procesos BPE`
 
-## 2. Descripción
-`[2-3l: Trigger, flujo E2E Excel/Macro/CSV, actores, cierre BDO/Finanzas]`
+### 2. Cómo Leer Este Documento
+Redacción narrativa en párrafos (NO bullets). Explicar:
+- Qué es el documento (diagnóstico formal del proceso)
+- Qué contiene (estructura de 8 secciones)
+- Propósito del documento
 
-## 3. Cómo Leer
-* Ficha+Descripción: alcance evaluado. Glosario: BPE/CeCo/WBS/FTR/SLA. Resumen: riesgos/cuellos. Matriz: As-Is vs To-Be. Lean: 5 pilares. Roadmap: P1/P2/P3.
+**Reglas de redacción:**
+- NO usar símbolo §
+- NO usar "—" (guiones largos), usar comas
+- NO mencionar Lean/BPM ni ISO 31000 (a menos que el autor indique explícitamente)
+- Texto fluido y profesional
 
-## 4. Resumen Hallazgos
-`[Bullets: Excel, mail, inter-sistemas, ajustes + Conclusión Alta + Portal centralizado]`
+### 3. Breve Descripción del Proceso
+`[2-3 párrafos: Trigger, flujo E2E Excel/Macro/CSV, actores, cierre BDO/Finanzas]`
 
-## 5. Glosario
-* **BPE/CeCo/WBS/FTR/SLA:** defs.
+### 4. KPIs Línea Base (As-Is)
+Tabla con métricas estimadas por BPE (NO KPIs formales del proceso).
 
-## 6. Matriz 8c
-* **ID:** `GAP-01`
-* **Paso SOP:** paso As-Is
-* **Situación:** cómo hoy
-* **Brecha:** problema
-* **Causa Raíz:** `Falta validación origen`, `Macros locales`, `Sin workflow`
-* **Estado To-Be:** solución
-* **Tipo Impacto ENUM:** `Calidad, Operativo, Tiempo/Retrabajo, Gobernanza/Riesgo, Técnico/Automatización`
-* **Criticidad:** `Alta/Media/Baja`
+**Importante:** El SOP As-Is generalmente NO define KPIs formalmente. Aclarar en la introducción que estas métricas son estimaciones del análisis BPE.
 
-| ID | Paso | Situación | Brecha | Causa | To-Be | Impacto | Criticidad |
+| Métrica | Valor Actual | Fuente de Información |
+| :--- | :--- | :--- |
+| Lead Time del ciclo | ~X días hábiles | SOP As-Is - Sección X |
+| Archivos manipulados | X+ | SOP As-Is - Sección X |
+| Consolidaciones manuales | X | SOP As-Is - Sección X |
+| Aprobaciones manuales | X | SOP As-Is - Sección X |
+| Intervenciones carga/descarga | X+ | SOP As-Is - Sección X |
+
+### 5. Matriz de Brechas (As-Is vs. To-Be)
+Breve introducción + tabla de 8 columnas.
+
+| ID | Paso / Fase | Situación Actual | Brecha / Dolor | Causa Raíz | Estado Deseado | Tipo de Impacto | Criticidad |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| GAP-01 | [Fase] | [As-Is] | [Dolor] | [Causa] | [Solución] | [Tipo] | Alta |
+| GAP-01 | [Fase] | [As-Is] | [Dolor] | [Causa] | [Solución] | [Tipo] | Alta/Media/Baja |
 
-## 7. Lean 5 Pilares
-* **Rework:** [formato 0.5h, solapamiento, retroactivos]
-* **Waiting:** [mail Líder/Referente/Head]
-* **Over-processing:** [unificación x torre/línea]
-* **Transporte Datos:** [Excel→CSV→BDO→TXT]
-* **Talento:** [hs revisión celdas vs análisis]
+### 6. Categorización de Desperdicios Operativos
+Breve introducción + lista de 5 tipos de ineficiencias.
 
-## 8. Roadmap
-* **P1 Quick Win:** alto impacto/bajo esfuerzo — Etapa1 Portal
-* **P2 Mediano:** — Etapa2 Licencias / Etapa3 BDO
-* **P3 Largo:** — API/SAP/BDO
+* **Defectos y Retrabajos:** [descripción]
+* **Esperas y Tiempos Muertos:** [descripción]
+* **Sobreprocesamiento:** [descripción]
+* **Movimiento / Transporte de Datos:** [descripción]
+* **Talento no Utilizado:** [descripción]
 
-| # | Iniciativa | Alcance | Esf | Imp | Pri |
-| :-: | :--- | :--- | :-: | :-: | :-: |
-| IN-01 | [Portal Carga/Validación] | [0.5h/solap] | M | Crítico | P1 |
-| IN-02 | [Licencias] | [Nessie Portal] | M | Alto | P2 |
-| IN-03 | [Export BDO] | [CSV/TXT auto] | B | Alto | P2 |
-| IN-04 | [API BDO/SAP] | [máquina a máquina] | A | Medio | P3 |
+### 7. Riesgos Operativos del Proceso Actual
+Breve introducción + tabla de riesgos.
 
-## Reglas aplicación
-- Ficha+Desc 2-3l + Cómo Leer 6 bullets + Resumen 4 bullets + Glosario + Matriz 8 cols + Lean 5 pilares + Roadmap P1/P2/P3. Sin Cómo Leer/Glosario → `🔴`.
-- Preguntar volumen/horas/frecuencia si falta dimensionamiento
-- Entrega: `GAP-SOP-XXX-v1.0.md` en `02_process_diagnosis/` con workdir
+| ID | Riesgo Identificado | Probabilidad | Impacto | Control Actual |
+| :--- | :--- | :---: | :---: | :--- |
+| R01 | [riesgo] | Alta/Media/Baja | Crítico/Alto/Medio/Bajo | [control] |
+
+### 8. Priorización y Roadmap de Oportunidades
+Breve introducción + tabla con Responsible y Fecha Estimada.
+
+| # | Iniciativa | Alcance | Esfuerzo | Impacto | Prioridad | Responsible | Fecha Estimada |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| IN-01 | [nombre] | [alcance] | Medio | Crítico | P1 Inmediata | [responsable] | TBD |
+
+**Reglas Roadmap:**
+- NO usar "Etapa X" en nombres de iniciativas
+- Responsible: equipo ejecutor (ej: P&E, P&E + RRHH)
+- Fecha Estimada: TBD si no se conoce
+
+### Glosario (2 partes)
+
+#### Abreviaturas y Siglas
+| Sigla | Definición |
+| :--- | :--- |
+| SOP | Procedimiento Operativo Estándar |
+| BPE | Business Process Engineering |
+| RRHH | Recursos Humanos |
+| [siglas específicas del proceso] | [definición] |
+
+#### Términos del Documento
+| Término | Definición |
+| :--- | :--- |
+| As-Is | Estado actual del proceso |
+| To-Be | Estado futuro deseado |
+| Gap / Brecha | Diferencia entre As-Is y To-Be |
+| [términos específicos] | [definición] |
+
+---
+
+## Reglas de Aplicación
+
+1. **Estructura obligatoria:** 8 secciones + Glosario (2 partes). Sin "Cómo Leer" o Glosario = `🔴`.
+2. **Redacción:** Narrativa en párrafos para introducciones. NO bullets en "Cómo Leer". NO § ni "—".
+3. **KPIs:** Aclarar que son estimaciones BPE, no KPIs formales del proceso.
+4. **Roadmap:** Incluir columns Responsible y Fecha Estimada. NO usar "Etapa X".
+5. **Glosario:** Dos partes: Abreviaturas y Siglas + Términos del Documento.
+6. **Preguntar:** volumen/horas/frecuencia si falta dimensionamiento.
+7. **Entrega:** `GAP-SOP-XXX-v1.0.md` en `02_process_diagnosis/` con workdir.

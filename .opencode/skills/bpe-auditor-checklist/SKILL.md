@@ -1,6 +1,6 @@
 ---
 name: bpe-auditor-checklist
-description: Checklist auditoría SOP 9 dimensiones (gobernanza, RACI 1xA, RN, riesgos ISO31000). Usar para auditar SOP As-Is/To-Be propio o de terceros y generar reporte con estados 🟢/🟡/🔴.
+description: Checklist auditoría SOP 9 dimensiones (gobernanza, RACI 1xA + SoD, RN, riesgos ISO31000). Usar para auditar SOP As-Is/To-Be propio o de terceros y generar reporte con estados 🟢/🟡/🔴.
 ---
 
 # Skill: Checklist Auditoría SOP BPE
@@ -22,7 +22,7 @@ Criterios para auditar SOP y generar devolución. Ref: MEMORY.md:4
 | :--- | :--- | :---: | :--- |
 | 1.Gobernanza | Ficha 6c + Historial `DD/MM/AAAA`, sin Aprobadores `MEMORY.md:4` | [ ] | [ ] |
 | 2.Límites | Objetivo+Trigger+Alcance+Exclusiones+Calendario 4c | [ ] | [ ] |
-| 3.RACI | Roles + RACI 1xA único, `—` si no aplica | [ ] | [ ] |
+| 3.RACI | Roles + RACI 1xA único + sin celdas mixtas `R/A`/`C/I` (SoD), `—` si no aplica | [ ] | [ ] |
 | 4.Tecnológico | Sistema/Función/Acceso, SAP ver `00_draft` | [ ] | [ ] |
 | 5.RN | Tabla `ID|Regla|Aplicación` **o** redacción prosa con `### RN0X: Título` + descripción. Ambos formatos son válidos. | [ ] | [ ] |
 | 6.Paso a Paso | FASE A-E con info `Actor/Sistema/Acción/Estado` — formato narrativo, listado o ficha válido | [ ] | [ ] |
@@ -35,7 +35,7 @@ Criterios para auditar SOP y generar devolución. Ref: MEMORY.md:4
 2. **[Mejora 2]:** [acción estructura]
 
 ## Reglas bloqueantes
-- RACI 1xA único (`—` si no aplica) — `A/R` duplicado → `🔴`
+- RACI: 1xA único por fila (`—` si no aplica); celda mixta (`R/A`, `A/R`, `C/I`) → `🔴` (SoD)
 - Sin Aprobaciones, Ficha 6c + Historial `DD/MM/AAAA`
 - En Pausa: `[SOLICITADO]/[SOLICITAR]` → `🟡 En Pausa` sin penalizar
 - RN: tabla `ID|Regla|Aplicación` **o** redacción prosa `### RN0X` — ambos formatos válidos

@@ -1,7 +1,6 @@
 ---
 description: Agente orquestador BPE & BPA para liderar células de análisis y rediseño de procesos.
 mode: primary
-model: anthropic/claude-sonnet-4-20250514
 color: "#1E88E5"
 permission:
   edit: allow
