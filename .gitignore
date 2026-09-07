@@ -16,3 +16,7 @@ Order to cash (O2C)/
 .DS_Store
 Thumbs.db
 *.log
+# Obsidian vault (config local, no versionar)
+.obsidian/
+# Respaldos locales obsoletos (ej. .opencode/node_modules_OLD/)
+*_OLD/
